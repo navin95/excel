@@ -13,5 +13,6 @@ public class App
         System.out.println(" hello welcome to git bash");
         System.out.println(" hello welcome to jira class");
         System.out.println(" hello welcome to manual class");
+        System.out.println(" welcome to selenium");
     }
 }
