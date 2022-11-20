@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+  <parameter name="email" value="navinvijayramkumar@gmail.com"></parameter>
+	<parameter name="pass" value="Navin@95"></parameter>
+	<parameter name="email1" value="navinvija@gmail.com"></parameter>
+	<parameter name="pass1" value="Navin@95"></parameter>
+  <classes>
+  <class name="basicconcepts.org.Test7"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

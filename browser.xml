@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" name="Suite" parallel="tests">
+  <test thread-count="6" name="Chrome" parallel="tests">
+  <parameter name="Browser" value="chrome"></parameter>
+  <parameter name="email" value="navinvijayramkumar@gmail.com"></parameter>
+  <parameter name="pass" value="Navin@95"></parameter>
+  <classes>
+  <class name="basicconcepts.org.Browser"></class>
+  </classes>
+  </test> <!-- Test -->
+   <test thread-count="6" name="Edge" parallel="tests">
+  <parameter name="Browser" value="edge"></parameter>
+  <parameter name="email" value="navinwedsprithivi@gmail.com"></parameter>
+  <parameter name="pass" value="Navin@95"></parameter>
+  <classes>
+  <class name="basicconcepts.org.Browser"></class>
+  </classes>
+  </test> <!-- Test -->
+   <test thread-count="6" name="Firefox" parallel="tests">
+  <parameter name="Browser" value="firefox"></parameter>
+  <parameter name="email" value="prithiviezhil26@gmail.com"></parameter>
+  <parameter name="pass" value="Navin@95"></parameter>
+  <classes>
+  <class name="basicconcepts.org.Browser"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
